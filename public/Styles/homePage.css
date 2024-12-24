@@ -1,0 +1,85 @@
+.header{
+    height: 15%;
+    background-color: black;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+button{
+    height: 35px;
+    width: 120px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+button a{
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    padding: 1rem;
+    min-height: 75vh;
+    background-color: rgb(109, 172, 109);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card{
+    height: 22vh;
+    width: 90%;
+    background-color: rgb(87, 128, 87);
+    border-radius: 10px;
+    box-shadow: 4px 4px 25px rgba(0,0,0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card p{
+    color: rgb(219, 216, 216);
+}
+
+.fullName{
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+.footer{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    /* position: absolute;
+    bottom: 0%; */
+}
+
+@media screen and (max-width : 600px) {
+    .links{
+        display: none;
+    }
+    .header{
+        justify-content: space-between;
+    }
+}
